@@ -52,6 +52,7 @@
  
     <!-- Execute SonarScanner for Ant Analysis -->
     <sonar:sonar />
+        </target>
 
     <target name="rebuild" depends="clean,build" description="rebuild application"/>
 
